@@ -2,9 +2,9 @@
 This python package implements the D-CCA method proposed in [1].
 
 D-CCA conducts the following decomposition:
-\begin{align*}
-$Y_k =  X_k + E_k = C_k + D_k + E_k$ for k=1,2
-\end{align*}
+$$
+Y_k =  X_k + E_k = C_k + D_k + E_k for k=1,2
+$$
 where C_1 and C_2 share the same latent factors, but D_1 and D_2 have uncorrelated latent factors.
 
 
