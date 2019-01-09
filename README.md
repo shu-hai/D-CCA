@@ -1,5 +1,5 @@
 # D-CCA
-This python package implements the D-CCA method proposed in [1]. See example.py for details.
+This python package implements the D-CCA method proposed in [1]. See example.py for details, with Python 3.5 or above.
 
 D-CCA conducts the following decomposition:
 
