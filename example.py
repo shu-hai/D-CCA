@@ -26,7 +26,7 @@ X_1_hat, X_2_hat, C_1_hat, C_2_hat, D_1_hat, D_2_hat, r_1_hat, r_2_hat, r_12_hat
 X_1_hat, X_2_hat, C_1_hat, C_2_hat, D_1_hat, D_2_hat, r_1_hat, r_2_hat, r_12_hat, ccor_hat,theta_hat  = dcca.dCCA(Y_1, Y_2, method='GE')
 
 '''
-ccor_hat: the estimated canonical correlation of x_1 and x_2
+ccor_hat: the estimated nonzero canonical correlations of x_1 and x_2
 theta_hat: arccos(ccor_hat)*180/pi
 
 
