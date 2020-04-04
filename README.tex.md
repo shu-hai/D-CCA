@@ -4,9 +4,9 @@ This python package implements the D-CCA method proposed in [1]. See [example.py
 ```
 D-CCA conducts the following decomposition:
 
-Y_k =  X_k + E_k = C_k + D_k + E_k   for   k=1,2
+$Y_k =  X_k + E_k = C_k + D_k + E_k$   for   $k=1,2$
 
-where C_1 and C_2 share the same latent factors, but D_1 and D_2 have uncorrelated latent factors.
+where $C_1$ and $C_2$ share the same latent factors, but $D_1$ and $D_2$ have uncorrelated latent factors.
 ```
 
 Please cite the article [1] for this package, which is available [here](https://www.researchgate.net/publication/329691934_D-CCA_A_Decomposition-based_Canonical_Correlation_Analysis_for_High-Dimensional_Datasets).
