@@ -4,11 +4,11 @@ This python package implements the D-CCA method proposed in [1]. See [example.py
 
 D-CCA conducts the following decomposition:
 
-<img src="/tex/094007642d6d93756e8b6a6921ab0ea6.svg?invert_in_darkmode&sanitize=true" align=middle width=224.60462144999997pt height=22.465723500000017pt/>   for   <img src="/tex/d5e10916396a6d6bc9adca60d882d01e.svg?invert_in_darkmode&sanitize=true" align=middle width=54.737294699999985pt height=22.831056599999986pt/>
+<img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{Y}_k=\boldsymbol{X}_k %2B \boldsymbol{E}_k=\boldsymbol{C}_k %2B \boldsymbol{D}_k %2B \boldsymbol{E}_k"> for <img src="https://render.githubusercontent.com/render/math?math=k=1,2">
 
-where <img src="/tex/d81a84099e7856ffa4484e1572ceadff.svg?invert_in_darkmode&sanitize=true" align=middle width=18.30139574999999pt height=22.465723500000017pt/> and <img src="/tex/85f3e1190907b9a8e94ce25bec4ec435.svg?invert_in_darkmode&sanitize=true" align=middle width=18.30139574999999pt height=22.465723500000017pt/> share the same latent factors, but <img src="/tex/eb4779c5fded13881cb5f169b1f10c73.svg?invert_in_darkmode&sanitize=true" align=middle width=20.16214364999999pt height=22.465723500000017pt/> and <img src="/tex/9f0028b414617caf75a357cfb98e7497.svg?invert_in_darkmode&sanitize=true" align=middle width=20.16214364999999pt height=22.465723500000017pt/> have uncorrelated latent factors.
+where <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{C}_1"> and <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{C}_2"> share the same latent factors, but <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{D}_1"> and <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{D}_2"> have uncorrelated latent factors.
 
-Note that $Y_k$ should be row-mean centered.
+Note that <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{Y}_k"> should be row-mean centered.
 
 Please cite the article [1] for this package, which is available [here](https://www.researchgate.net/publication/329691934_D-CCA_A_Decomposition-based_Canonical_Correlation_Analysis_for_High-Dimensional_Datasets).
 
