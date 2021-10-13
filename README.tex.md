@@ -8,6 +8,7 @@ D-CCA conducts the following decomposition:
 
 where <img src="/tex/d81a84099e7856ffa4484e1572ceadff.svg?invert_in_darkmode&sanitize=true" align=middle width=18.30139574999999pt height=22.465723500000017pt/> and <img src="/tex/85f3e1190907b9a8e94ce25bec4ec435.svg?invert_in_darkmode&sanitize=true" align=middle width=18.30139574999999pt height=22.465723500000017pt/> share the same latent factors, but <img src="/tex/eb4779c5fded13881cb5f169b1f10c73.svg?invert_in_darkmode&sanitize=true" align=middle width=20.16214364999999pt height=22.465723500000017pt/> and <img src="/tex/9f0028b414617caf75a357cfb98e7497.svg?invert_in_darkmode&sanitize=true" align=middle width=20.16214364999999pt height=22.465723500000017pt/> have uncorrelated latent factors.
 
+Note that $Y_k$ should be row-mean centered.
 
 Please cite the article [1] for this package, which is available [here](https://www.researchgate.net/publication/329691934_D-CCA_A_Decomposition-based_Canonical_Correlation_Analysis_for_High-Dimensional_Datasets).
 
