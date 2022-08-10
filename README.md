@@ -1,5 +1,5 @@
 # D-CCA: A Decomposition-based Canonical Correlation Analysis for High-dimensional Datasets
-This python package implements the D-CCA method proposed in [1]. See [example.py](https://github.com/shu-hai/D-CCA/blob/master/example.py) for details, with Python 3.5 or above.
+This python package implements the D-CCA method proposed in [1] for K=2 datasets. See [example.py](https://github.com/shu-hai/D-CCA/blob/master/example.py) for details, with Python 3.5 or above. For K>2 datasets, please use the [D-GCCA](https://github.com/shu-hai/D-GCCA) method.
 
 
 D-CCA conducts the following decomposition:
